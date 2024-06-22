@@ -1,0 +1,36 @@
+@import url("../Header/Header.css");
+@import url("../Section/Sorting/sort.css");
+@import url("../Section/Discounts/Discount.css");
+@import url("../Section/Second-Section/Second-Section.css");
+@import url("../Footer/Footer.css");
+
+:root {
+  --main-color: #ff00a6;
+}
+@font-face {
+  font-family: iran;
+  src: url(../../font/A-Iranian-Sans/Dirooz.woff2);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #00bb90;
+}
+p {
+  margin: 0px;
+}
+
+body {
+  height: 100vh;
+  margin: 20px 20px;
+  font-family: iran;
+}
+.maincolor {
+  color: var(--main-color);
+}

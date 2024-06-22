@@ -1,0 +1,30 @@
+.input-header {
+  background-color: lightgray;
+}
+.header-logo {
+  width: 70px;
+  height: inherit;
+}
+header {
+  position: sticky;
+  width: 100%;
+
+  top: 0;
+  background-color: white;
+  padding: 5px;
+  z-index: 100;
+}
+
+.buttom-header img {
+  height: 37px;
+}
+.buttom-header div {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 991px) and (min-width: 200px) {
+  .buttom-header {
+    overflow-x: scroll;
+    padding: 0px 40px;
+  }
+}

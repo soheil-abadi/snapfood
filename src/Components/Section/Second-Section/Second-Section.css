@@ -1,0 +1,30 @@
+.topleft {
+  transform: translateY(-230px);
+}
+
+.mainsecond {
+  margin-top: 200px !important;
+  background-color: #ebedf0;
+  border-radius: 0px 0px 100px 0px;
+  line-height: 40px;
+}
+.phone-button {
+  top: 50%;
+  left: 10px;
+  transform: translate(0%, -50%);
+  background: var(--main-color);
+  opacity: 0.7;
+  transition: all 0.5s linear;
+}
+.phone-button:hover {
+  opacity: 1;
+}
+.phone-check {
+  width: fit-content;
+}
+.phone-input {
+  padding-left: 120px !important;
+}
+.applogo a {
+  width: 120px;
+}

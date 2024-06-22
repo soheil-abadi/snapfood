@@ -1,0 +1,34 @@
+.sort-title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px 0px 5px 0px;
+}
+
+.minisorts:hover .icon {
+  transform: translateX(-2px);
+}
+.transition {
+  transition: 0.5s;
+}
+.minisorts {
+  cursor: pointer;
+  width: 15%;
+  margin: auto;
+}
+.minisorts .sort-title .icon {
+  transition: 0.3s;
+}
+.minisorts img {
+  display: block;
+
+  margin: auto;
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .minisorts {
+    width: 100%;
+    width: fit-content;
+  }
+}

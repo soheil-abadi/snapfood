@@ -1,0 +1,27 @@
+.top-right-f img {
+  width: 85px;
+}
+footer {
+  background-color: #f9fafb;
+}
+
+footer li {
+  list-style-type: none;
+  line-height: 40px;
+}
+footer li a {
+  color: black !important;
+  transition: all 0.05s linear;
+}
+footer li a:hover {
+  color: var(--main-color);
+}
+
+.social-f > * {
+  color: #676a70;
+
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
