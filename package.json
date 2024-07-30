@@ -17,14 +17,16 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "swiper": "^11.0.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "concurrently": "^7.5.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"npm:start-react\" \"npm:start-db\"",
+    "start-react": "react-scripts start",
+    "start-db": "json-server --watch db.json --port 3004",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "dbstart-db": "json-server --watch db.json --port 3004"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
